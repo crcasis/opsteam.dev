@@ -1,0 +1,6 @@
+declare module 'glightbox'
+declare module 'react-nouislider'
+declare module 'react-leaflet'
+declare module 'react-flatpickr'
+declare module 'react-nouislider'
+declare module 'wnumb'
