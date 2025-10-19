@@ -7,11 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'",
-    "pages:build": "npx @cloudflare/next-on-pages",
-    "preview": "npm run pages:build && wrangler pages dev",
-    "deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static --project-name=opsteam",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv ./env.d.ts"
+    "preview": "vite preview",
+    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'"
   },
   "dependencies": {
     "@fullcalendar/bootstrap": "^6.1.19",
