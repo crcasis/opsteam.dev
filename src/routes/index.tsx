@@ -1,5 +1,5 @@
 import { lazy } from 'react'
-import { Navigate, type RouteProps } from 'react-router-dom'
+import { type RouteProps } from 'react-router-dom'
 
 //Account
 const Billing = lazy(() => import('@/pages/account/billing/index'))
@@ -11,26 +11,7 @@ const OverView = lazy(() => import('@/pages/account/overview/index'))
 const Settings = lazy(() => import('@/pages/account/settings/index'))
 
 //landing
-const AgencyCreative = lazy(() => import('@/pages/landing/agency/creative/index'))
-const AgencyMarketing = lazy(() => import('@/pages/landing/agency/marketing/index'))
-const LandingBlog = lazy(() => import('@/pages/landing/blog/index'))
-const BusinessConsulting = lazy(() => import('@/pages/landing/business-consulting/index'))
-const Conference = lazy(() => import('@/pages/landing/conference/index'))
-const Corporate = lazy(() => import('@/pages/landing/corporate/index'))
-const Coworking = lazy(() => import('@/pages/landing/coworking/index'))
-const Influencer = lazy(() => import('@/pages/landing/influencer/index'))
-const Insurance = lazy(() => import('@/pages/landing/insurance/index'))
-const Mobile = lazy(() => import('@/pages/landing/mobile/index'))
-const Product = lazy(() => import('@/pages/landing/product/index'))
-const SaasV1 = lazy(() => import('@/pages/landing/saas/v1/index'))
-const SaasV2 = lazy(() => import('@/pages/landing/saas/v2/index'))
-const SaasV3 = lazy(() => import('@/pages/landing/saas/v3/index'))
-const SaasV4 = lazy(() => import('@/pages/landing/saas/v4/index'))
-const ShopV1 = lazy(() => import('@/pages/landing/shop/v1/index'))
-const ShopV2 = lazy(() => import('@/pages/landing/shop/v2/index'))
-const Template = lazy(() => import('@/pages/landing/template/index'))
-const WebStudio = lazy(() => import('@/pages/landing/web-studio/index'))
-const Yoga = lazy(() => import('@/pages/landing/yoga/index'))
+const WebStudio = lazy(() => import('@/pages/landing/opsteam/index'))
 
 // services //shop
 const ServiceV1 = lazy(() => import('@/pages/(pages)/services/v1/index'))
@@ -92,110 +73,20 @@ const initialRoutes: RoutesProps[] = [
   {
     path: '/',
     name: 'root',
-    element: <Navigate to="/landing/template" />,
+    element: <WebStudio />,
   },
 ]
 
 export const LandingPages: RoutesProps[] = [
   {
-    path: '/landing/template',
-    name: 'Template Intro Page',
-    element: <Template />,
-  },
-  {
-    path: '/landing/agency/creative',
-    name: 'Creative Agency',
-    element: <AgencyCreative />,
-  },
-  {
-    path: '/landing/agency/marketing',
-    name: 'Marketing Agency',
-    element: <AgencyMarketing />,
-  },
-  {
-    path: '/landing/blog',
-    name: 'Blog Homepage',
-    element: <LandingBlog />,
-  },
-  {
-    path: '/landing/business-consulting',
-    name: 'Business Consulting',
-    element: <BusinessConsulting />,
-  },
-  {
-    path: '/landing/conference',
-    name: 'Conference (Event)',
-    element: <Conference />,
-  },
-  {
-    path: '/landing/corporate',
-    name: 'Corporate',
-    element: <Corporate />,
-  },
-  {
-    path: '/landing/coworking',
-    name: 'Coworking Space',
-    element: <Coworking />,
-  },
-  {
-    path: '/landing/influencer',
-    name: 'Influencer',
-    element: <Influencer />,
-  },
-  {
-    path: '/landing/insurance',
-    name: 'Insurance Company',
-    element: <Insurance />,
-  },
-  {
-    path: '/landing/mobile',
-    name: 'Mobile App Showcase',
-    element: <Mobile />,
-  },
-  {
-    path: '/landing/product',
-    name: 'Product Landing',
-    element: <Product />,
-  },
-  {
-    path: '/landing/saas/v1',
-    name: 'SaaS v.1',
-    element: <SaasV1 />,
-  },
-  {
-    path: '/landing/saas/v2',
-    name: 'SaaS v.2',
-    element: <SaasV2 />,
-  },
-  {
-    path: '/landing/saas/v3',
-    name: 'SaaS v.3',
-    element: <SaasV3 />,
-  },
-  {
-    path: '/landing/saas/v4',
-    name: 'SaaS v.4',
-    element: <SaasV4 />,
-  },
-  {
-    path: '/landing/shop/v1',
-    name: 'Shop Homepage v.1',
-    element: <ShopV1 />,
-  },
-  {
-    path: '/landing/shop/v2',
-    name: 'Shop Homepage v.2',
-    element: <ShopV2 />,
-  },
-  {
-    path: '/landing/web-studio',
-    name: 'Web Studio',
+    path: '/',
+    name: 'Opsteam',
     element: <WebStudio />,
   },
   {
-    path: '/landing/yoga',
-    name: 'Yoga Studio',
-    element: <Yoga />,
+    path: '/landing/opsteam',
+    name: 'Opsteam',
+    element: <WebStudio />,
   },
 ]
 

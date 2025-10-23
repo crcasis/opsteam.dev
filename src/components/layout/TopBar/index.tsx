@@ -45,29 +45,29 @@ const Header = ({ theme, classname, user, buynow, searchbar, userSignIn, showCar
                   ></path>
                 </svg>
               </span>
-              Around
+              Opsteam
             </Link>
 
             <ThemeMode />
 
             {showSqureBuyNow && (
-              <Link className="btn btn-primary btn-sm fs-sm rounded-0 order-lg-3 d-none d-sm-inline-flex" to="" rel="noopener">
-                <i className="ai-cart fs-xl me-2 ms-n1" />
-                Buy now
+              <Link className="btn btn-primary btn-sm fs-sm rounded-0 order-lg-3 d-none d-sm-inline-flex" to="/contacts/v1" rel="noopener">
+                <i className="ai-calendar fs-xl me-2 ms-n1" />
+                Book an appointment
               </Link>
             )}
 
             {showRoundBuyNow && (
-              <Link className="btn btn-primary btn-sm fs-sm rounded-pill order-lg-3 d-none d-sm-inline-flex" to="" rel="noopener">
-                <i className="ai-cart fs-xl me-2 ms-n1" />
-                Buy now
+              <Link className="btn btn-primary btn-sm fs-sm rounded-pill order-lg-3 d-none d-sm-inline-flex" to="/contacts/v1" rel="noopener">
+                <i className="ai-calendar fs-xl me-2 ms-n1" />
+                Book an appointment
               </Link>
             )}
 
             {buynow && (
-              <Link className="btn btn-primary btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex" to="" rel="noopener">
-                <i className="ai-cart fs-xl me-2 ms-n1" />
-                Buy now
+              <Link className="btn btn-primary btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex" to="/contacts/v1" rel="noopener">
+                <i className="ai-calendar fs-xl me-2 ms-n1" />
+                Book an appointment
               </Link>
             )}
 
@@ -125,9 +125,9 @@ const Header = ({ theme, classname, user, buynow, searchbar, userSignIn, showCar
               <TopMenu />
 
               <div className="d-sm-none p-3 mt-n3">
-                <Link className="btn btn-primary w-100 mb-1" to="" rel="noopener">
-                  <i className="ai-cart fs-xl me-2 ms-n1" />
-                  Buy now
+                <Link className="btn btn-primary w-100 mb-1" to="/contacts/v1" rel="noopener">
+                  <i className="ai-calendar fs-xl me-2 ms-n1" />
+                  Book an appointment
                 </Link>
               </div>
             </nav>

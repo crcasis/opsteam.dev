@@ -73,20 +73,20 @@ const skills: SkillItem[] = [
 const Skill = () => {
   return (
     <>
-      <section className="py-5 my-2 my-lg-3 my-xl-4 my-xxl-5">
-        <Container className="d-flex align-items-center justify-content-between pt-sm-3 pt-md-4 pt-xl-5 pb-4 mb-sm-2 mb-md-3">
+      <section className="pt-2 py-md-4 py-lg-5 mt-2 mt-xl-4 mt-xxl-5">
+        <Container className="d-flex align-items-center justify-content-between pb-4 mb-sm-2 mb-md-3">
           <h2 className="h1 mb-0">Our skills</h2>
-          <div className="d-flex gap-3">
+          <div className="d-flex">
             <button className="btn btn-sm btn-icon btn-outline-primary rounded-circle" id="prev-skill">
               <i className="ai-arrow-left" />
             </button>
-            <button className="btn btn-sm btn-icon btn-outline-primary rounded-circle" id="next-skill">
+            <button className="btn btn-sm btn-icon btn-outline-primary rounded-circle ms-3" id="next-skill">
               <i className="ai-arrow-right" />
             </button>
           </div>
         </Container>
 
-        <div className="container-start pb-2 pb-sm-3 pb-md-4 pb-lg-5">
+        <div className="container-start">
           <Swiper
             modules={[Navigation]}
             navigation={{
@@ -104,7 +104,7 @@ const Skill = () => {
                   <Card className="card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5">
                     <div className="card-flip-inner mx-auto" style={{ maxWidth: 306 }}>
                       <div className="card-flip-front p-0">
-                        <CardBody className="d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100">
+                        <CardBody className="d-flex flex-column justify-content-center align-items-center h-100">
                           <Image src={skill.image} width={72} alt="" />
                         </CardBody>
                       </div>

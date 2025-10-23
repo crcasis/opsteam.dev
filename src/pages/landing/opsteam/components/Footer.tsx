@@ -1,4 +1,4 @@
-import wave from '@/assets/img/landing/opsteam/footer-wave.png'
+import wawe from '@/assets/img/landing/opsteam/footer-wave.png'
 import { Col, Container, Image, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
@@ -13,7 +13,7 @@ const Footer = () => {
             data-bs-theme="dark"
           >
             <div className="position-absolute top-50 start-50 translate-middle" style={{ width: 1664 }}>
-              <Image src={wave} alt="Wave" />
+              <Image src={wawe} alt="Wave" />
             </div>
             <Container className="position-relative z-2 pt-md-3 pt-lg-4 pt-xl-5 pb-2">
               <Row className="pb-2">
@@ -27,9 +27,9 @@ const Footer = () => {
                         />
                       </svg>
                     </span>
-                    <span className="text-white opacity-90">Around</span>
+                    <span className="text-white opacity-90">Opsteam</span>
                   </div>
-                  <p className="text-body fs-sm mb-4">Tellus non diam morbi quam vel venenatis proin sed dolor elementum nunc</p>
+                  <p className="text-body fs-sm mb-4">Expert DevOps and Kubernetes consulting services based in Madrid</p>
                   <div className="input-group input-group-sm rounded-pill">
                     <input className="form-control" type="text" placeholder="Email address" />
                     <button className="btn btn-primary rounded-pill" type="button">
