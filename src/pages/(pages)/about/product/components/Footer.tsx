@@ -107,7 +107,7 @@ const Footer = () => {
           <p className="nav fs-sm mb-0">
             <span className="text-body-secondary me-1">© All rights reserved. Made by</span>
             <Link className="nav-link d-inline fw-normal p-0" to="https://stackbros.in/" target="_blank" rel="noopener">
-              Stackbros
+              Opsteam.dev
             </Link>
           </p>
         </Container>

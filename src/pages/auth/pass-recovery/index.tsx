@@ -60,7 +60,7 @@ const page = () => {
         <p className="nav w-100 fs-sm pt-5 mb-5" style={{ maxWidth: 700, marginTop: 150 }}>
           <span className="text-body-secondary">© All rights reserved. Made by</span>
           <Link className="nav-link d-inline-block p-0 ms-1" to="https://stackbros.in/" target="_blank" rel="noopener">
-            Stackbros
+            Opsteam.dev
           </Link>
         </p>
       </div>

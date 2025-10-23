@@ -37,7 +37,7 @@ const page = () => {
         <div className="nav fs-sm pb-1 pb-sm-3">
           <span className="text-body-secondary me-1">© All rights reserved. Made by</span>
           <Link className="nav-link d-inline fw-normal p-0" to="https://stackbros.in/" target="_blank" rel="noopener">
-            Stackbros
+            Opsteam.dev
           </Link>
         </div>
       </footer>
