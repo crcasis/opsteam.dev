@@ -50,7 +50,7 @@ const Faq = () => {
   return (
     <section className="container py-5 mt-2 mt-sm-3 mt-md-4">
       <h2 className="h1 text-center pt-lg-3">Industries we work in</h2>
-      <p className="pb-3 pb-md-4 mb-0 mb-sm-2 mb-lg-3 text-center">Most of our projcts come from the industries below</p>
+      <p className="pb-3 pb-md-4 mb-0 mb-sm-2 mb-lg-3 text-center">Most of our projects come from the industries below</p>
       <Row className="align-items-lg-center">
         <Col md={6} lg={5} className="pb-2 pb-lg-0 mb-4 mb-md-0">
           <Accordion defaultActiveKey="0" activeKey={activeKey} onSelect={(k) => setActiveKey(k || '0')} className="accordion-alt" id="industries">
