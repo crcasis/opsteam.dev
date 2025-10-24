@@ -74,9 +74,7 @@ const page = () => {
 
           <p className="nav w-100 fs-sm pt-5 mb-5" style={{ maxWidth: 526, marginTop: 116 }}>
             <span className="text-body-secondary">© All rights reserved. Made by</span>
-            <Link className="nav-link d-inline-block p-0 ms-1" to="https://stackbros.in/" rel="noopener">
-              Opsteam.dev
-            </Link>
+            <span className="fw-normal ms-1">Opsteam.dev</span>
           </p>
         </div>
 
