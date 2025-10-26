@@ -11,7 +11,7 @@ const Contact = () => {
               <p className="pb-1 pb-md-0 mb-4 mb-md-5">
                 Morbi et massa fames ac scelerisque sit commodo dignissim faucibus vel quisque proin lectus.
               </p>
-              <h3 className="mb-4">Send your request!</h3>
+              <h3 className="mb-4">How can we help you?</h3>
               <form className="needs-validation row g-4" noValidate>
                 <Col lg={10}>
                   <label className="form-label fs-base" htmlFor="name">

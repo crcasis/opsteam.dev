@@ -7,11 +7,11 @@ const Contact = () => {
         <Container className="py-lg-2 py-xl-4 py-xxl-5">
           <Row className="mt-1 pt-sm-2 pt-md-3 pt-lg-4">
             <Col lg={5} className="mb-5 mb-lg-0">
-              <h2 className="h1">Benefits of working with us</h2>
+              <h2 className="h1">We develop your project in the Cloud</h2>
               <p className="pb-1 pb-md-0 mb-4 mb-md-5">
-                Morbi et massa fames ac scelerisque sit commodo dignissim faucibus vel quisque proin lectus.
+                We're DevOps Engineers and Cloud Architects, we build your project in the Cloud.
               </p>
-              <h3 className="mb-4">Send your request!</h3>
+              <h3 className="mb-4">How can we help you?</h3>
               <form className="needs-validation row g-4" noValidate>
                 <Col lg={10}>
                   <label className="form-label fs-base" htmlFor="name">
