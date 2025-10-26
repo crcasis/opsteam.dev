@@ -64,11 +64,10 @@ const Contact = () => {
                         />
                       </svg>
                       <h3 className="h4" style={{ maxWidth: 180 }}>
-                        Time zones ain't no thing
+                      Customized cloud solutions for each sector and business
                       </h3>
                       <p className="card-text fs-sm">
-                        Pharetra in morbi quis is massa maecenas arcu vulputate pulvinar elit non nullage a, duis tortor mi massa ipsum in eu eu eget
-                        libero.
+                        Our expertise in cloud solutions adapts to the particular needs of each project.
                       </p>
                     </CardBody>
                   </Card>
