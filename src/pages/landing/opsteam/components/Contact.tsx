@@ -122,7 +122,7 @@ const Contact = () => {
                         Banking, Finance and Insurance
                       </h3>
                       <p className="card-text fs-sm">
-                        Opsteam helps companies offering financial services in banking and insurance improve their competencies in a rapidly evolving technological landscape. By leveraging cloud-native technologies, it ensures that solutions are cost-effective, secure, and compliant with industry regulatory standards.
+                        Opsteam helps companies offering financial services in banking and insurance improve their competencies in a rapidly evolving technological landscape.
                       </p>
                     </CardBody>
                   </Card>
