@@ -90,11 +90,10 @@ const Contact = () => {
                         />
                       </svg>
                       <h3 className="h4" style={{ maxWidth: 180 }}>
-                        Flexible work terms
+                        Cloud for PyMes and SMB
                       </h3>
                       <p className="card-text fs-sm">
-                        Pharetra in morbi quis is massa maecenas arcu vulputate pulvinar elit non nullage a, duis tortor mi massa ipsum in eu eu eget
-                        libero.
+                        We are Cloud partners for small and medium-sized businesses.
                       </p>
                     </CardBody>
                   </Card>
@@ -139,11 +138,10 @@ const Contact = () => {
                         />
                       </svg>
                       <h3 className="h4" style={{ maxWidth: 180 }}>
-                        Impossible? We're on it
+                        FinOps & Reselling
                       </h3>
                       <p className="card-text fs-sm">
-                        Pharetra in morbi quis is massa maecenas arcu vulputate pulvinar elit non nullage a, duis tortor mi massa ipsum in eu eu eget
-                        libero.
+                        Financial Operations - Optimize costs and maximize the value of your investment in cloud computing services
                       </p>
                     </CardBody>
                   </Card>
