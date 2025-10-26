@@ -90,10 +90,10 @@ const Contact = () => {
                         />
                       </svg>
                       <h3 className="h4" style={{ maxWidth: 180 }}>
-                        Cloud for PyMes and SMB
+                        PyMes and SMB
                       </h3>
                       <p className="card-text fs-sm">
-                        We are Cloud partners for small and medium-sized businesses.
+                        We are Cloud partners for small and medium-sized businesses. We develop your infrastructure and give you realistic deadlines 
                       </p>
                     </CardBody>
                   </Card>
@@ -119,11 +119,10 @@ const Contact = () => {
                         />
                       </svg>
                       <h3 className="h4" style={{ maxWidth: 180 }}>
-                        Full spectrum of services
+                        Banking, Finance and Insurance
                       </h3>
                       <p className="card-text fs-sm">
-                        Pharetra in morbi quis is massa maecenas arcu vulputate pulvinar elit non nullage a, duis tortor mi massa ipsum in eu eu eget
-                        libero.
+                        Opsteam helps companies offering financial services in banking and insurance improve their competencies in a rapidly evolving technological landscape. By leveraging cloud-native technologies, it ensures that solutions are cost-effective, secure, and compliant with industry regulatory standards.
                       </p>
                     </CardBody>
                   </Card>
