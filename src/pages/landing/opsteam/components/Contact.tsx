@@ -7,7 +7,7 @@ const Contact = () => {
         <Container className="py-lg-2 py-xl-4 py-xxl-5">
           <Row className="mt-1 pt-sm-2 pt-md-3 pt-lg-4">
             <Col lg={5} className="mb-5 mb-lg-0">
-              <h2 className="h1">We develop your project in the Cloud</h2>
+              <h2 className="h1">Cloud Native Solutions</h2>
               <p className="pb-1 pb-md-0 mb-4 mb-md-5">
                 We're DevOps Engineers and Cloud Architects, we build your project in the Cloud.
               </p>
