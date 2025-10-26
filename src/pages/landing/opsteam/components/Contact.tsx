@@ -64,7 +64,7 @@ const Contact = () => {
                         />
                       </svg>
                       <h3 className="h4" style={{ maxWidth: 180 }}>
-                      Customized cloud solutions for each sector and business
+                      Customized cloud solutions
                       </h3>
                       <p className="card-text fs-sm">
                         Our expertise in cloud solutions adapts to the particular needs of each project.
