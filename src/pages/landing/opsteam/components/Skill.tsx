@@ -2,6 +2,7 @@ import aws from '@/assets/img/landing/opsteam/skills/aws.png'
 import azure from '@/assets/img/landing/opsteam/skills/azure.png'
 import gcp from '@/assets/img/landing/opsteam/skills/gcp.png'
 import githubActions from '@/assets/img/landing/opsteam/skills/github-actions.png'
+import azureDevOps from '@/assets/img/landing/opsteam/skills/azure-devops.png'
 import { Card, CardBody, Container, Image } from 'react-bootstrap'
 import { Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -62,7 +63,7 @@ const skills: SkillItem[] = [
     type: 'text',
     description:
       'Pipelines automation - We use github actions, gitlab pipelines and jenkins to execute pipelines for our infrastructure and deploy our applications.',
-    image: aws,
+    image: azureDevOps,
   },
 ]
 
