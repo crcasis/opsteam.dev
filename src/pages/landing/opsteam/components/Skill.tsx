@@ -1,10 +1,6 @@
-import alpine from '@/assets/img/brands/alpine.svg'
-import champion from '@/assets/img/brands/champion-dark.svg'
-import deloitte from '@/assets/img/brands/deloitte-dark.svg'
-import foster from '@/assets/img/brands/foster.svg'
-import bootstrap from '@/assets/img/landing/opsteam/skills/bootstrap.svg'
-import css3 from '@/assets/img/landing/opsteam/skills/css3.svg'
-import figma from '@/assets/img/landing/opsteam/skills/figma.svg'
+import aws from '@/assets/img/landing/opsteam/skills/aws.svg'
+import azure from '@/assets/img/landing/opsteam/skills/azure.svg'
+import gcp from '@/assets/img/landing/opsteam/skills/gcp.svg'
 import python from '@/assets/img/landing/opsteam/skills/python.svg'
 import { Card, CardBody, Container, Image } from 'react-bootstrap'
 import { Navigation } from 'swiper/modules'
@@ -23,38 +19,38 @@ const skills: SkillItem[] = [
     type: 'flip',
     title: 'AWS',
     description: 'Our AWS Cloud Architect build and deploy infrastructure as code with HA and CI/CD pipelines. ',
-    image: figma,
+    image: aws,
   },
   {
     type: 'text',
     description:
       ' Build and scale a kubernetes platform with HA and CI/CD pipelines. The infrastructure has been fully automated using managed services - SKS - Secure Kubernetes Service, DBaaS and terraform.',
-    image: foster,
+    image: aws,
   },
   {
     type: 'flip',
     title: 'Azure',
     description: 'Setting up an infrastructure based on AKS (Kubernetes) and microservices was the client\'s requirement. Using HA and security as the foundation of our team.',
-    image: css3,
+    image: azure,
   },
   {
     type: 'text',
     description:
       'We have GCP-focused devops that have developed PaaS solutions, with services such as Cloud Functions, App Engine for APIs, SQL databases, Vertex AI, and BigQuery for datasets.',
-    image: champion,
+    image: gcp,
   },
   {
     type: 'flip',
     title: 'Alpega gmbh',
     description:
       'Providing multi-cloud solutions is important to Opsteam, we develop multi-tenancy solutions in cloud environments such as Azure, AWS and GCP',
-    image: bootstrap,
+    image: aws,
   },
   {
     type: 'text',
     description:
       'Using terraform is the best solution for infrastructure as code. We have experiencie with terragrunt and modules to be able to build and manage complex infrastructures.',
-    image: alpine,
+    image: aws,
   },
   {
     type: 'flip',
@@ -66,7 +62,7 @@ const skills: SkillItem[] = [
     type: 'text',
     description:
       'Pipelines automation - We use github actions, gitlab pipelines and jenkins to execute pipelines for our infrastructure and deploy our applications.',
-    image: deloitte,
+    image: aws,
   },
 ]
 
