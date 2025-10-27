@@ -17,7 +17,7 @@ type SkillItem = {
 
 const skills: SkillItem[] = [
   {
-    type: 'flip',
+    type: 'text',
     title: 'AWS',
     description: 'Our AWS Cloud Architect build and deploy infrastructure as code with HA and CI/CD pipelines. ',
     image: aws,
@@ -29,7 +29,7 @@ const skills: SkillItem[] = [
     image: aws,
   },
   {
-    type: 'flip',
+    type: 'text',
     title: 'Azure',
     description: 'Setting up an infrastructure based on AKS (Kubernetes) and microservices was the client\'s requirement. Using HA and security as the foundation of our team.',
     image: azure,
@@ -41,7 +41,7 @@ const skills: SkillItem[] = [
     image: gcp,
   },
   {
-    type: 'flip',
+    type: 'text',
     title: 'Alpega gmbh',
     description:
       'Providing multi-cloud solutions is important to Opsteam, we develop multi-tenancy solutions in cloud environments such as Azure, AWS and GCP',
@@ -54,7 +54,7 @@ const skills: SkillItem[] = [
     image: aws,
   },
   {
-    type: 'flip',
+    type: 'text',
     title: 'Automation',
     description: 'Scripting and automation is a key aspect of our work. We use Python, bash and go to build and manage our infrastructure.',
     image: githubActions,
