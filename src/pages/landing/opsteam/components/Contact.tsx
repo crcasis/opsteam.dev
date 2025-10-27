@@ -93,7 +93,7 @@ const Contact = () => {
                         PyMes and SMB
                       </h3>
                       <p className="card-text fs-sm">
-                        We are Cloud partners for small and medium-sized businesses. We develop your infrastructure and give you realistic deadlines 
+                        Cloud partners for small and medium-sized businesses. We develop your infrastructure and give you realistic deadlines. 
                       </p>
                     </CardBody>
                   </Card>

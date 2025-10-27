@@ -21,51 +21,51 @@ type SkillItem = {
 const skills: SkillItem[] = [
   {
     type: 'flip',
-    title: 'Figma',
-    description: 'Figma is a convenient online service for interface development and prototyping with the ability to work together in real time.',
+    title: 'AWS',
+    description: 'Our AWS Cloud Architect build and deploy infrastructure as code with HA and CI/CD pipelines. ',
     image: figma,
   },
   {
     type: 'text',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere finibus dui, eget scelerisque ipsum suscipit nec. Praesent nec quam in ipsum ultricies ultricies et sagittis dui. Sed condimentum felis at pretium.',
+      ' Build and scale a kubernetes platform with HA and CI/CD pipelines. The infrastructure has been fully automated using managed services - SKS - Secure Kubernetes Service, DBaaS and terraform.',
     image: foster,
   },
   {
     type: 'flip',
-    title: 'CSS3',
-    description: 'Cascading Style Sheets Level 3 is the iteration of the CSS standard used in the styling and formatting of Web pages.',
+    title: 'Azure',
+    description: 'Setting up an infrastructure based on AKS (Kubernetes) and microservices was the client\'s requirement. Using HA and security as the foundation of our team.',
     image: css3,
   },
   {
     type: 'text',
     description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tincidunt imperdiet hendrerit. Fusce tortor turpis, facilisis ac efficitur eget, aliquet ut odio. Curabitur in vestibulum tellus.',
+      'We have GCP-focused devops that have developed PaaS solutions, with services such as Cloud Functions, App Engine for APIs, SQL databases, Vertex AI, and BigQuery for datasets.',
     image: champion,
   },
   {
     type: 'flip',
-    title: 'Bootstrap',
+    title: 'Alpega gmbh',
     description:
-      'Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components.',
+      'Providing multi-cloud solutions is important to Opsteam, we develop multi-tenancy solutions in cloud environments such as Azure, AWS and GCP',
     image: bootstrap,
   },
   {
     type: 'text',
     description:
-      'Nulla facilisi. Curabitur dictum sodales aliquam. Etiam tortor augue, ultrices in efficitur sit amet, luctus dapibus magna. Vivamus eu lacus elementum, ultrices massa vitae, elementum lorem. Proin feugiat egestas dolor.',
+      'Using terraform is the best solution for infrastructure as code. We have experiencie with terragrunt and modules to be able to build and manage complex infrastructures.',
     image: alpine,
   },
   {
     type: 'flip',
     title: 'Python',
-    description: 'Python is a programming language that lets you work quickly and integrate systems more effectively.',
+    description: 'Scripting and automation is a key aspect of our work. We use Python, bash and go to build and manage our infrastructure.',
     image: python,
   },
   {
     type: 'text',
     description:
-      'Suspendisse potenti. Nulla vel varius urna. Donec at libero ipsum. Nullam scelerisque tempus malesuada. Donec vehicula odio est, at faucibus purus sollicitudin ut. Fusce mollis ultrices ex sed pellentesque velit euismod.',
+      'Pipelines automation - We use github actions, gitlab pipelines and jenkins to execute pipelines for our infrastructure and deploy our applications.',
     image: deloitte,
   },
 ]
