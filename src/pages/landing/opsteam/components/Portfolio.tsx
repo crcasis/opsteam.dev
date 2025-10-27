@@ -42,10 +42,9 @@ const Portfolio = () => {
             <div className="ps-md-3 ps-lg-0">
               <Image className="d-block d-dark-mode-none mb-2 mb-lg-3" src={championdark} alt="Champion" />
               <Image className="d-none d-dark-mode-block mb-2 mb-lg-3" src={championlight} alt="Champion" />
-              <h2 className="h4">Development of an application for a national bank</h2>
+              <h2 className="h4">Development of an application for a logistic company</h2>
               <p className="fs-sm pb-3 pb-lg-4 mb-3">
-                Morbi et massa fames ac scelerisque sit commodo dignissim faucibus vel quisque proin lectus. Morbi et massa fames ac scelerisque sit
-                commodo dignissim.
+              Multi-cloud platform between AWS and Azure, running both EKS and Openshift clusters using Terraform and CI/CD for pipeline automation.
               </p>
               <Link className="btn btn-sm btn-outline-dark rounded-pill" to="/portfolio/single-v1">
                 Read the full story
