@@ -3,8 +3,8 @@ import { Card, CardBody, Col, Container, Row } from 'react-bootstrap'
 const Contact = () => {
   return (
     <>
-      <section className="bg-secondary pb-4">
-        <Container className="pt-3 pb-4">
+      <section className="bg-secondary pt-4 pb-4">
+        <Container className="pt-4 pb-4">
           <Row>
             <Col lg={5} className="mb-5 mb-lg-0">
               {/* <h2 className="h1">Cloud Native Solutions</h2> */}
