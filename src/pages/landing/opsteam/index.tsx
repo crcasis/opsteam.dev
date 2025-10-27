@@ -6,7 +6,6 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Portfolio from './components/Portfolio'
 import Service from './components/Service'
-import Skill from './components/Skill'
 
 const page = () => {
   return (
@@ -17,7 +16,6 @@ const page = () => {
       <Award />
       <Service />
       <Faq />
-      <Skill />
       <Portfolio />
       <Contact />
       <Footer />
