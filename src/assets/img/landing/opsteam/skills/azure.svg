@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 800 600" style="enable-background:new 0 0 800 600;" xml:space="preserve">
-<path fill="#0089D6" d="M400,200L200,300v200l200,100l200-100V300L400,200z M400,250l150,87.5v175L400,600L250,512.5v-175L400,250z"/>
-<path fill="#0089D6" d="M400,300L200,200l200-100l200,100L400,300z M400,150L250,200l150,50l150-50L400,150z"/>
-</svg>

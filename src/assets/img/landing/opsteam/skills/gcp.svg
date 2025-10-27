@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 800 600" style="enable-background:new 0 0 800 600;" xml:space="preserve">
-<path fill="#EA4335" d="M400,300l100-100l-100-100v200z"/>
-<path fill="#34A853" d="M400,100l-100,100l100,100v-50l50-50l-50-50V100z"/>
-<path fill="#FBBC05" d="M300,400l100,100v-50l-50-50H300z"/>
-<path fill="#4285F4" d="M400,450l100-100H350l-50,50h100V450z"/>
-</svg>
