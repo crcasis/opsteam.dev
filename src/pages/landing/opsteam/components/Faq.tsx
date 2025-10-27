@@ -18,28 +18,28 @@ const industries: Industry[] = [
     id: 'finance',
     title: 'Finance and insurance',
     content:
-      'Sit purus platea nunc semper auctor integer semper et ac odio eget a lacus eu duis ante sed molestie varius tempus gravida libero pretium sit etiam morbi orci et vestibulum velit.',
+      'We empower financial and insurance companies with secure, automated DevOps pipelines using tools like AWS, Terraform, Kubernetes, Jenkins, Github actions and GitLab CI/CD. Our solutions ensure compliance, scalability, and faster, more reliable software delivery.',
     image: industries01,
   },
   {
     id: 'tech',
     title: 'Startup and technology',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere finibus dui, eget scelerisque ipsum suscipit nec. Praesent nec quam in ipsum ultricies ultricies et sagittis dui.',
+      'We support startups and tech companies in building reliable, data-driven platforms through modern DevOps practices. Using tools like Ansible, CircleCI, ArgoCD, Prometheus, Grafana, and the ELK Stack, we enable automation, observability, and continuous improvement to help your technology scale with confidence.',
     image: industries02,
   },
   {
     id: 'medicine',
     title: 'Medicine and beauty',
     content:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tincidunt imperdiet hendrerit. Fusce tortor turpis, facilisis ac efficitur eget.',
+      'We help healthcare and beauty companies streamline operations and deliver reliable digital services with robust DevOps practices. Leveraging Apache Kafka for real-time data streaming and modern databases like PostgreSQL, MongoDB, and MySQL, we enable secure, scalable, and highly available systems that support patient care, analytics, and customer engagement.',
     image: industries03,
   },
   {
     id: 'ecommerce',
     title: 'E-commerce',
     content:
-      'Curabitur dictum sodales aliquam. Etiam tortor augue, ultrices in efficitur sit amet, luctus dapibus magna. Vivamus eu lacus elementum, ultrices massa vitae, elementum lorem.',
+      'We help e-commerce businesses deliver fast, secure, and reliable online experiences. By implementing load balancing, Web Application Firewalls (WAF), and high-availability cloud architectures, we ensure your platforms scale seamlessly, stay protected, and handle traffic peaks with confidence.',
     image: industries04,
   },
 ]
