@@ -3,9 +3,9 @@ import { Card, CardBody, Col, Container, Row } from 'react-bootstrap'
 const Contact = () => {
   return (
     <>
-      <section className="bg-secondary pt-5 pb-4">
-        <Container className="py-lg-2 py-xl-4 py-xxl-5">
-          <Row className="mt-1 pt-sm-2 pt-md-3 pt-lg-4">
+      <section className="bg-secondary pb-4">
+        <Container className="pt-3 pb-4">
+          <Row>
             <Col lg={5} className="mb-5 mb-lg-0">
               {/* <h2 className="h1">Cloud Native Solutions</h2> */}
               <p className="pb-1 pb-md-0 mb-4 mb-md-5">

@@ -1,8 +1,11 @@
-import aws from '@/assets/img/landing/opsteam/skills/aws.png'
-import azure from '@/assets/img/landing/opsteam/skills/azure.png'
-import gcp from '@/assets/img/landing/opsteam/skills/gcp.png'
-import githubActions from '@/assets/img/landing/opsteam/skills/github-actions.png'
-import azureDevOps from '@/assets/img/landing/opsteam/skills/azure-devops.png'
+import alpine from '@/assets/img/brands/alpine.svg'
+import champion from '@/assets/img/brands/champion-dark.svg'
+import deloitte from '@/assets/img/brands/deloitte-dark.svg'
+import foster from '@/assets/img/brands/foster.svg'
+import bootstrap from '@/assets/img/landing/opsteam/skills/bootstrap.svg'
+import css3 from '@/assets/img/landing/opsteam/skills/css3.svg'
+import figma from '@/assets/img/landing/opsteam/skills/figma.svg'
+import python from '@/assets/img/landing/opsteam/skills/python.svg'
 import { Card, CardBody, Container, Image } from 'react-bootstrap'
 import { Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -18,51 +21,52 @@ type SkillItem = {
 const skills: SkillItem[] = [
   {
     type: 'flip',
-    title: 'AWS',
-    description: 'Our AWS Cloud Architect builds and deploys infrastructure as code with HA and CI/CD pipelines.',
-    image: aws,
+    title: 'Figma',
+    description: 'Figma is a convenient online service for interface development and prototyping with the ability to work together in real time.',
+    image: figma,
   },
   {
     type: 'text',
     description:
-      'Build and scale a Kubernetes platform with HA and CI/CD pipelines. The infrastructure has been fully automated using managed services - SKS - Secure Kubernetes Service, DBaaS and Terraform.',
-    image: aws,
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere finibus dui, eget scelerisque ipsum suscipit nec. Praesent nec quam in ipsum ultricies ultricies et sagittis dui. Sed condimentum felis at pretium.',
+    image: foster,
   },
   {
     type: 'flip',
-    title: 'Azure',
-    description: 'Setting up an infrastructure based on AKS (Kubernetes) and microservices with HA and security as the foundation.',
-    image: azure,
+    title: 'CSS3',
+    description: 'Cascading Style Sheets Level 3 is the iteration of the CSS standard used in the styling and formatting of Web pages.',
+    image: css3,
   },
   {
     type: 'text',
     description:
-      'We have GCP-focused DevOps that have developed PaaS solutions, with services such as Cloud Functions, App Engine for APIs, SQL databases, Vertex AI, and BigQuery for datasets.',
-    image: gcp,
+      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tincidunt imperdiet hendrerit. Fusce tortor turpis, facilisis ac efficitur eget, aliquet ut odio. Curabitur in vestibulum tellus.',
+    image: champion,
   },
   {
     type: 'flip',
-    title: 'Multi-Cloud',
-    description: 'Providing multi-cloud solutions is important to Opsteam, we develop multi-tenancy solutions in cloud environments such as Azure, AWS, and GCP',
-    image: aws,
+    title: 'Bootstrap',
+    description:
+      'Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components.',
+    image: bootstrap,
   },
   {
     type: 'text',
     description:
-      'Using Terraform is the best solution for infrastructure as code. We have experience with Terragrunt and modules to build and manage complex infrastructures.',
-    image: aws,
+      'Nulla facilisi. Curabitur dictum sodales aliquam. Etiam tortor augue, ultrices in efficitur sit amet, luctus dapibus magna. Vivamus eu lacus elementum, ultrices massa vitae, elementum lorem. Proin feugiat egestas dolor.',
+    image: alpine,
   },
   {
     type: 'flip',
-    title: 'Automation',
-    description: 'Scripting and automation is a key aspect of our work. We use Python, bash, and Go to build and manage our infrastructure.',
-    image: githubActions,
+    title: 'Python',
+    description: 'Python is a programming language that lets you work quickly and integrate systems more effectively.',
+    image: python,
   },
   {
     type: 'text',
     description:
-      'Pipelines automation - We use GitHub Actions, GitLab Pipelines, and Jenkins to execute pipelines for our infrastructure and deploy our applications.',
-    image: azureDevOps,
+      'Suspendisse potenti. Nulla vel varius urna. Donec at libero ipsum. Nullam scelerisque tempus malesuada. Donec vehicula odio est, at faucibus purus sollicitudin ut. Fusce mollis ultrices ex sed pellentesque velit euismod.',
+    image: deloitte,
   },
 ]
 
