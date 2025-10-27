@@ -1,7 +1,7 @@
 import aws from '@/assets/img/landing/opsteam/skills/aws.png'
 import azure from '@/assets/img/landing/opsteam/skills/azure.png'
 import gcp from '@/assets/img/landing/opsteam/skills/gcp.png'
-import python from '@/assets/img/landing/opsteam/skills/python.png'
+import githubActions from '@/assets/img/landing/opsteam/skills/github-actions.png'
 import { Card, CardBody, Container, Image } from 'react-bootstrap'
 import { Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -54,9 +54,9 @@ const skills: SkillItem[] = [
   },
   {
     type: 'flip',
-    title: 'Python',
+    title: 'Automation',
     description: 'Scripting and automation is a key aspect of our work. We use Python, bash and go to build and manage our infrastructure.',
-    image: python,
+    image: githubActions,
   },
   {
     type: 'text',
