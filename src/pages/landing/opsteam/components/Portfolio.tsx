@@ -1,4 +1,3 @@
-import boost from '@/assets/img/portfolio/brands/boost.svg'
 import alpega from '@/assets/img/portfolio/brands/alpega.png'
 import who from '@/assets/img/portfolio/brands/who.png'
 import lilly from '@/assets/img/portfolio/brands/lilly.png'
@@ -6,11 +5,11 @@ import deloittedark from '@/assets/img/portfolio/brands/deloitte-dark.svg'
 import deloittelight from '@/assets/img/portfolio/brands/deloitte-light.svg'
 import vuejsdark from '@/assets/img/portfolio/brands/vuejs-dark.svg'    
 import vuejslight from '@/assets/img/portfolio/brands/vuejs-light.svg'
-import list from '@/assets/img/portfolio/list/06.png'
 import list07 from '@/assets/img/portfolio/list/07.png'
 import list08 from '@/assets/img/portfolio/list/08.png'
 import { Col, Image, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import tendereasy from '@/assets/img/portfolio/list/tendereasy.png'
 
 const Portfolio = () => {
   return (
@@ -29,7 +28,7 @@ const Portfolio = () => {
               />
               <Image
                 className="d-block position-relative z-2 mx-auto"
-                src={list}
+                src={tendereasy}
                 width={636}
                 alt="Image"
                 data-aos="fade-in"
