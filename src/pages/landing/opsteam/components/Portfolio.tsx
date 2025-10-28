@@ -27,7 +27,7 @@ const Portfolio = () => {
                 data-aos-offset={250}
               />
               <Image
-                className="d-block position-relative z-2 mx-auto"
+                className="d-block position-relative z-2 ms-auto"
                 src={tendereasy}
                 width={636}
                 alt="Image"
