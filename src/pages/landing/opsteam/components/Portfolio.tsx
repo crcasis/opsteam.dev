@@ -1,5 +1,6 @@
 import boost from '@/assets/img/portfolio/brands/boost.svg'
 import alpega from '@/assets/img/portfolio/brands/alpega.png'
+import who from '@/assets/img/portfolio/brands/who.png'
 import lilly from '@/assets/img/portfolio/brands/lilly.png'
 import deloittedark from '@/assets/img/portfolio/brands/deloitte-dark.svg'
 import deloittelight from '@/assets/img/portfolio/brands/deloitte-light.svg'
@@ -113,7 +114,7 @@ const Portfolio = () => {
           </Col>
           <Col md={5} xl={4} className="offset-lg-1" data-aos="fade-up" data-aos-duration={400} data-aos-offset={170}>
             <div className="ps-md-3 ps-lg-0">
-              <Image className="d-block mb-2 mb-lg-3" src={boost} alt="Boost" />
+              <Image className="d-block mb-2 mb-lg-3" src={who} alt="who" />
               <h2 className="h4 mb-lg-4">Landing page for a travel agency</h2>
               <ul className="list-unstyled pb-1 pb-lg-2 mb-3">
                 <li className="d-flex pb-1 mb-2">
