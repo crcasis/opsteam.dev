@@ -82,10 +82,9 @@ const Portfolio = () => {
           <Col md={5} xl={4} className="offset-lg-1" data-aos="fade-up" data-aos-duration={400} data-aos-offset={170}>
             <div className="ps-md-3 ps-lg-0">
               <Image className="d-block mb-2 mb-lg-3" src={green} alt="Foster" />
-              <h2 className="h4">Design and development of a dashboard for data management</h2>
+              <h2 className="h4">Design and Architecture of Real Time Visualization of Data</h2>
               <p className="fs-sm pb-3 pb-lg-4 mb-3">
-                Feugiat elit tempor, malesuada rutrum amet quis duis facilisi viverra. Quam ut in gravida dignissim eget mauris pretium facilisi dui
-                varius amet et quam massa auctor.
+              Design the Cloud Architecture of Openshift Clusters ROSA and ARO with Pipelines, Scalability, Security and Monitoring of the platform.
               </p>
               <Link className="btn btn-sm btn-outline-dark rounded-pill" to="/portfolio/single-v1">
                 Read the full story
@@ -116,19 +115,19 @@ const Portfolio = () => {
           <Col md={5} xl={4} className="offset-lg-1" data-aos="fade-up" data-aos-duration={400} data-aos-offset={170}>
             <div className="ps-md-3 ps-lg-0">
               <Image className="d-block mb-2 mb-lg-3" src={boost} alt="Boost" />
-              <h2 className="h4 mb-lg-4">Landing page for a marketing agency Boost</h2>
+              <h2 className="h4 mb-lg-4">Landing page for a travel agency</h2>
               <ul className="list-unstyled pb-1 pb-lg-2 mb-3">
                 <li className="d-flex pb-1 mb-2">
                   <i className="ai-check-alt text-primary fs-4 mt-n1 me-2" />
-                  Faucibus sit est dui id gravida
+                  AWS ECS - Fargate and Cloudfront Distributioh
                 </li>
                 <li className="d-flex pb-1 mb-2">
                   <i className="ai-check-alt text-primary fs-4 mt-n1 me-2" />
-                  Lectus in sem eu facilisis ornare
+                  AWS RDS, S3, ACM and Load Balancing
                 </li>
                 <li className="d-flex pb-1 mb-2">
                   <i className="ai-check-alt text-primary fs-4 mt-n1 me-2" />
-                  Massa maecenas cras vivamus
+                  CI/CD with GitHub Actions
                 </li>
               </ul>
               <Link className="btn btn-sm btn-outline-dark rounded-pill" to="/portfolio/single-v1">
