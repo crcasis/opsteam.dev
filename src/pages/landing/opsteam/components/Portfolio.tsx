@@ -1,6 +1,5 @@
 import boost from '@/assets/img/portfolio/brands/boost.svg'
-import championdark from '@/assets/img/portfolio/brands/champion-blue-dark.svg'
-import championlight from '@/assets/img/portfolio/brands/champion-blue-light.svg'
+import alpega from '@/assets/img/portfolio/brands/alpega.png'
 import deloittedark from '@/assets/img/portfolio/brands/deloitte-dark.svg'
 import deloittelight from '@/assets/img/portfolio/brands/deloitte-light.svg'
 import green from '@/assets/img/portfolio/brands/foster-green.svg'
@@ -40,8 +39,8 @@ const Portfolio = () => {
           </Col>
           <Col md={5} xl={4} className="offset-lg-1" data-aos="fade-up" data-aos-duration={400} data-aos-offset={170}>
             <div className="ps-md-3 ps-lg-0">
-              <Image className="d-block d-dark-mode-none mb-2 mb-lg-3" src={championdark} alt="Champion" />
-              <Image className="d-none d-dark-mode-block mb-2 mb-lg-3" src={championlight} alt="Champion" />
+              <Image className="d-block d-dark-mode-none mb-2 mb-lg-3" src={alpega} alt="Alpega" />
+              <Image className="d-none d-dark-mode-block mb-2 mb-lg-3" src={alpega} alt="Alpega" />
               <h2 className="h4">Development of an application for a logistic company</h2>
               <p className="fs-sm pb-3 pb-lg-4 mb-3">
               Multi-cloud platform between AWS and Azure, running both EKS and Openshift clusters using Terraform and CI/CD for pipeline automation.
