@@ -1,5 +1,6 @@
 import boost from '@/assets/img/portfolio/brands/boost.svg'
 import alpega from '@/assets/img/portfolio/brands/alpega.png'
+import lilly from '@/assets/img/portfolio/brands/lilly.png'
 import deloittedark from '@/assets/img/portfolio/brands/deloitte-dark.svg'
 import deloittelight from '@/assets/img/portfolio/brands/deloitte-light.svg'
 import green from '@/assets/img/portfolio/brands/foster-green.svg'
@@ -80,7 +81,7 @@ const Portfolio = () => {
           </Col>
           <Col md={5} xl={4} className="offset-lg-1" data-aos="fade-up" data-aos-duration={400} data-aos-offset={170}>
             <div className="ps-md-3 ps-lg-0">
-              <Image className="d-block mb-2 mb-lg-3" src={green} alt="Foster" />
+              <Image className="d-block mb-2 mb-lg-3" src={lilly} alt="lilly" />
               <h2 className="h4">Design and Architecture of Real Time Visualization of Data</h2>
               <p className="fs-sm pb-3 pb-lg-4 mb-3">
               Design the Cloud Architecture of Openshift Clusters ROSA and ARO with Pipelines, Scalability, Security and Monitoring of the platform.
