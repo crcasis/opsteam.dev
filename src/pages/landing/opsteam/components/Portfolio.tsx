@@ -9,7 +9,7 @@ import list07 from '@/assets/img/portfolio/list/07.png'
 import list08 from '@/assets/img/portfolio/list/08.png'
 import { Col, Image, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import tendereasy from '@/assets/img/portfolio/list/tendereasy.png'
+import tendereasy from '@/assets/img/portfolio/list/tendereasy-small.png'
 
 const Portfolio = () => {
   return (
