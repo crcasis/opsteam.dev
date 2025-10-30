@@ -1,6 +1,6 @@
 import alpega from '@/assets/img/portfolio/brands/alpega.png'
 import who from '@/assets/img/portfolio/brands/who.png'
-import capturetheatlas from '@/assets/img/portfolio/list/capturetheatlas.png'
+import capturelogo from '@/assets/img/portfolio/brands/capture-logo.png'
 import deloittedark from '@/assets/img/portfolio/brands/deloitte-dark.svg'
 import deloittelight from '@/assets/img/portfolio/brands/deloitte-light.svg'
 import vuejsdark from '@/assets/img/portfolio/brands/vuejs-dark.svg'    
@@ -81,7 +81,7 @@ const Portfolio = () => {
           </Col>
           <Col md={5} xl={4} className="offset-lg-1" data-aos="fade-up" data-aos-duration={400} data-aos-offset={170}>
             <div className="ps-md-3 ps-lg-0">
-              <Image className="d-block mb-2 mb-lg-3" src={capturetheatlas} alt="capturetheatlas" />
+              <Image className="d-block mb-2 mb-lg-3" src={capturelogo} alt="capturelogo" />
               <h2 className="h4">Design and Architecture of HA E-commerce platform</h2>
               <p className="fs-sm pb-3 pb-lg-4 mb-3">
               Design the Cloud Architecture of Openshift Clusters ROSA and ARO with Pipelines, Scalability, Security and Monitoring of the platform.
