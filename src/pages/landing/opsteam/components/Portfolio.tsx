@@ -115,11 +115,11 @@ const Portfolio = () => {
           <Col md={5} xl={4} className="offset-lg-1" data-aos="fade-up" data-aos-duration={400} data-aos-offset={170}>
             <div className="ps-md-3 ps-lg-0">
               <Image className="d-block mb-2 mb-lg-3" src={who} alt="who" />
-              <h2 className="h4 mb-lg-4">Landing page for a travel agency</h2>
+              <h2 className="h4 mb-lg-4">Infrastructure for Herams platform</h2>
               <ul className="list-unstyled pb-1 pb-lg-2 mb-3">
                 <li className="d-flex pb-1 mb-2">
                   <i className="ai-check-alt text-primary fs-4 mt-n1 me-2" />
-                  AWS ECS - Fargate and Cloudfront Distributioh
+                  AWS EKS - Cloudfront Distributioh
                 </li>
                 <li className="d-flex pb-1 mb-2">
                   <i className="ai-check-alt text-primary fs-4 mt-n1 me-2" />
@@ -127,7 +127,7 @@ const Portfolio = () => {
                 </li>
                 <li className="d-flex pb-1 mb-2">
                   <i className="ai-check-alt text-primary fs-4 mt-n1 me-2" />
-                  CI/CD with GitHub Actions
+                  CI/CD with GitHub  / Grafana & ELK Stack
                 </li>
               </ul>
               <Link className="btn btn-sm btn-outline-dark rounded-pill" to="/portfolio/single-v1">
