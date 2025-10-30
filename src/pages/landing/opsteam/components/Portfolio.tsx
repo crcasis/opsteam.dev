@@ -6,10 +6,11 @@ import deloittelight from '@/assets/img/portfolio/brands/deloitte-light.svg'
 import vuejsdark from '@/assets/img/portfolio/brands/vuejs-dark.svg'    
 import vuejslight from '@/assets/img/portfolio/brands/vuejs-light.svg'
 import list07 from '@/assets/img/portfolio/list/07.png'
-import list08 from '@/assets/img/portfolio/list/08.png'
+// import list08 from '@/assets/img/portfolio/list/08.png'
 import { Col, Image, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import tendereasy from '@/assets/img/portfolio/list/tendereasy-small.png'
+import tendereasy from '@/assets/img/portfolio/list/tendereasy.png'
+import herams from '@/assets/img/portfolio/list/herams.webp'
 
 const Portfolio = () => {
   return (
@@ -102,7 +103,7 @@ const Portfolio = () => {
               />
               <Image
                 className="d-block position-relative z-2 ms-auto"
-                src={list08}
+                src={herams}
                 width={636}
                 alt="Image"
                 data-aos="fade-in"
