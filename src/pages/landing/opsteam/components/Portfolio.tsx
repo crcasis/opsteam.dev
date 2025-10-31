@@ -11,7 +11,7 @@ import { Col, Image, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import tendereasy from '@/assets/img/portfolio/list/tendereasy.png'
 import herams from '@/assets/img/portfolio/list/herams.webp'
-import viesure-platform from '@/assets/img/portfolio/list/viesure-platform.png'
+import viesurePlatform from '@/assets/img/portfolio/list/viesure-platform.png'
 
 const Portfolio = () => {
   return (
@@ -71,7 +71,7 @@ const Portfolio = () => {
               />
               <Image
                 className="d-block position-relative z-2 mx-auto"
-                src={viesure-platform}
+                src={viesurePlatform}
                 width={636}
                 alt="Image"
                 data-aos="fade-in"
