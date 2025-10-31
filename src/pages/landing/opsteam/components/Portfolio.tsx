@@ -1,6 +1,6 @@
 import alpega from '@/assets/img/portfolio/brands/alpega.png'
 import who from '@/assets/img/portfolio/brands/who.png'
-import viesure from '@/assets/img/portfolio/brands/viesure-logo.png'
+import viesure from '@/assets/img/portfolio/brands/wiener-logo.png'
 import deloittedark from '@/assets/img/portfolio/brands/deloitte-dark.svg'
 import deloittelight from '@/assets/img/portfolio/brands/deloitte-light.svg'
 import vuejsdark from '@/assets/img/portfolio/brands/vuejs-dark.svg'    
