@@ -41,15 +41,9 @@ const page = () => {
                   <h4 className="card-title mb-4">Phone</h4>
                   <ul className="list-unstyled mb-0">
                     <li className="pb-1 mb-2">
-                      <span className="d-block fs-sm text-body-secondary mb-1">Main office</span>
-                      <Link className="nav-link fs-lg p-0" to="tel:+178632256033">
-                        +1&nbsp;(786)&nbsp;322&nbsp;560&nbsp;33
-                      </Link>
-                    </li>
-                    <li>
-                      <span className="d-block fs-sm text-body-secondary mb-1">Reception room</span>
-                      <Link className="nav-link fs-lg p-0" to="tel:+178630056044">
-                        +1&nbsp;(786)&nbsp;300&nbsp;560&nbsp;44
+                      <span className="d-block fs-sm text-body-secondary mb-1">Office</span>
+                      <Link className="nav-link fs-lg p-0" to="tel:+34629785212">
+                        +34 629 785 212
                       </Link>
                     </li>
                   </ul>
