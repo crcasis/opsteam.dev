@@ -60,7 +60,7 @@ const page = () => {
                       <div className="d-flex align-items-center">
                         <span className="text-nav fs-lg fw-medium">10:00</span>
                         <span className="border-top mx-4" style={{ width: 36, height: 1 }} />
-                        <span className="text-nav fs-lg fw-medium">22:00</span>
+                        <span className="text-nav fs-lg fw-medium">18:00</span>
                       </div>
                     </li>
                     <li>
@@ -68,7 +68,7 @@ const page = () => {
                       <div className="d-flex align-items-center">
                         <span className="text-nav fs-lg fw-medium">10:00</span>
                         <span className="border-top mx-4" style={{ width: 36, height: 1 }} />
-                        <span className="text-nav fs-lg fw-medium">20:00</span>
+                        <span className="text-nav fs-lg fw-medium">15:00</span>
                       </div>
                     </li>
                   </ul>
