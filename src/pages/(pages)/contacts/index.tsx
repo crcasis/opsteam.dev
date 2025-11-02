@@ -81,15 +81,15 @@ const page = () => {
                   <h4 className="card-title mb-4">Email</h4>
                   <ul className="list-unstyled mb-0">
                     <li className="pb-1 mb-2">
-                      <span className="d-block fs-sm text-body-secondary mb-1">Main office</span>
-                      <Link className="nav-link fs-lg p-0" to="mailto:office@example.com">
-                        office@example.com
+                      <span className="d-block fs-sm text-body-secondary mb-1">Main Office</span>
+                      <Link className="nav-link fs-lg p-0" to="mailto:contact@opsteam.dev">
+                        contact@opsteam.dev
                       </Link>
                     </li>
                     <li>
-                      <span className="d-block fs-sm text-body-secondary mb-1">Reception room</span>
-                      <Link className="nav-link fs-lg p-0" to="mailto:reception@example.com">
-                        reception@example.com
+                      <span className="d-block fs-sm text-body-secondary mb-1">Remote Office</span>
+                      <Link className="nav-link fs-lg p-0" to="mailto:contact@opsteam.dev">
+                        contact@opsteam.dev
                       </Link>
                     </li>
                   </ul>
