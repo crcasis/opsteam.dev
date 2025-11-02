@@ -17,9 +17,9 @@ const Footer = () => {
                     />
                   </svg>
                 </span>
-                <span className="text-nav">Around</span>
+                <span className="text-nav">Opsteam</span>
               </Link>
-              <p className="fs-sm pb-2 pb-lg-3 mb-3">Tellus non diam morbi quam vel venenatis proin sed. Dolor elementum nunc dictum</p>
+              <p className="fs-sm pb-2 pb-lg-3 mb-3">Cloud architects and Infrastructure experts to design your platform</p>
               <div className="d-flex gap-3">
                 <Link className="btn btn-icon btn-sm btn-secondary btn-facebook rounded-circle" to="" aria-label="Facabook">
                   <i className="ai-facebook" />
