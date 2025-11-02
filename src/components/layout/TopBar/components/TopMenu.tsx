@@ -52,7 +52,7 @@ const TopMenu = ({theme} :Props) => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link ${pathname === '/contacts/v1' ? 'active' : ''}`} to="/contacts/v1">
+          <Link className={`nav-link ${pathname === '/contacts' ? 'active' : ''}`} to="/contacts">
             Contact
           </Link>
         </li>
