@@ -20,7 +20,7 @@ const page = () => {
               </li>
             </ol>
           </nav>
-          <h1 className="display-2">Contact</h1>
+          <h2 className="display-2">Have we awakened your interest?</h2>
           <p className="fs-lg pb-4 mb-2 mb-sm-3">Get in touch with us by completing the below form or call us now</p>
           <Row className="row-cols-1 row-cols-sm-2 row-cols-xl-4 g-4 pb-2 pb-sm-4 pb-lg-5">
             <Col>
