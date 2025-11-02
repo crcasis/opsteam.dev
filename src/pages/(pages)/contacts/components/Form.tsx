@@ -77,32 +77,6 @@ const Form = () => {
                   </label>
                   <textarea className="form-control form-control-lg" rows={6} placeholder="Enter your message here..." required id="message" />
                 </Col>
-                <Col sm={12}>
-                  <div className="form-check form-check-inline">
-                    <input className="form-check-input" type="checkbox" id="seo" />
-                    <label className="form-check-label fs-base" htmlFor="seo">
-                      SEO Website Audit
-                    </label>
-                  </div>
-                  <div className="form-check form-check-inline">
-                    <input className="form-check-input" type="checkbox" id="email-marketing" defaultChecked />
-                    <label className="form-check-label fs-base" htmlFor="email-marketing">
-                      Email Marketing
-                    </label>
-                  </div>
-                  <div className="form-check form-check-inline">
-                    <input className="form-check-input" type="checkbox" id="social" />
-                    <label className="form-check-label fs-base" htmlFor="social">
-                      Social Networks
-                    </label>
-                  </div>
-                  <div className="form-check form-check-inline">
-                    <input className="form-check-input" type="checkbox" id="content-marketing" />
-                    <label className="form-check-label fs-base" htmlFor="content-marketing">
-                      Content Marketing
-                    </label>
-                  </div>
-                </Col>
                 <Col sm={12} className="text-center pt-4">
                   <button className="btn btn-lg btn-light" type="submit">
                     Send a request
