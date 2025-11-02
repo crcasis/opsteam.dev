@@ -59,18 +59,13 @@ const Footer = () => {
             <Col sm={4} lg={2} className="mb-4 mb-sm-0">
               <ul className="nav flex-column">
                 <li>
-                  <Link className="nav-link py-1 px-0" to="mailto:contact@example.com">
-                    contact@example.com
+                  <Link className="nav-link py-1 px-0" to="mailto:contact@opsteam.dev">
+                    contact@opsteam.dev
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-link py-1 px-0" to="tel:+15262200459">
-                    +1&nbsp;526&nbsp;220&nbsp;0459
-                  </Link>
-                </li>
-                <li>
-                  <Link className="nav-link py-1 px-0" to="tel:+15262200444">
-                    +1&nbsp;526&nbsp;220&nbsp;0444
+                  <Link className="nav-link py-1 px-0" to="tel:+34629785212">
+                    +34 629 785 212
                   </Link>
                 </li>
               </ul>
