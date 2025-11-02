@@ -25,9 +25,7 @@ const ShopSingle = lazy(() => import('@/pages/(pages)/shop/single/index'))
 const AboutAgency = lazy(() => import('@/pages/(pages)/about/agency/index'))
 const AboutProduct = lazy(() => import('@/pages/(pages)/about/product/index'))
 
-const ContactV1 = lazy(() => import('@/pages/(pages)/contacts/v1/index'))
-const ContactV2 = lazy(() => import('@/pages/(pages)/contacts/v2/index'))
-const ContactV3 = lazy(() => import('@/pages/(pages)/contacts/v3/index'))
+const Contact = lazy(() => import('@/pages/(pages)/contacts/index'))
 
 const ComingV1 = lazy(() => import('@/pages/(pages)/coming/v1/index'))
 const ComingV2 = lazy(() => import('@/pages/(pages)/coming/v2/index'))
@@ -209,19 +207,9 @@ export const authRoutes: RoutesProps[] = [
 
 export const contactsRoutes: RoutesProps[] = [
   {
-    path: '/contacts/v1',
-    name: 'Contact V1',
-    element: <ContactV1 />,
-  },
-  {
-    path: '/contacts/v2',
-    name: 'Contact V2',
-    element: <ContactV2 />,
-  },
-  {
-    path: '/contacts/v3',
-    name: 'Contact V3',
-    element: <ContactV3 />,
+    path: '/contacts',
+    name: 'Contact',
+    element: <Contact />,
   },
 ]
 
