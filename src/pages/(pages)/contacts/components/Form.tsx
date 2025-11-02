@@ -45,7 +45,7 @@ const Form = () => {
           </svg>
           <CardBody className="position-relative z-2 py-5">
             <form className="mx-auto" style={{ maxWidth: 800 }}>
-              <h2 className="h1 card-title text-center pb-4">Get a free consultation</h2>
+              <h2 className="h1 card-title text-center pb-4">How can we help you?</h2>
               <Row className="g-4">
                 <Col sm={6}>
                   <label className="form-label fs-base" htmlFor="name">
