@@ -16,18 +16,18 @@ const page = () => {
                 <Link to="/">Home</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
-                Contacts v.1
+                Contact
               </li>
             </ol>
           </nav>
-          <h1 className="display-2">Contacts</h1>
+          <h1 className="display-2">Contact</h1>
           <p className="fs-lg pb-4 mb-2 mb-sm-3">Get in touch with us by completing the below form or call us now</p>
           <Row className="row-cols-1 row-cols-sm-2 row-cols-xl-4 g-4 pb-2 pb-sm-4 pb-lg-5">
             <Col>
               <Card className="border-0 h-100">
                 <CardBody>
                   <h4 className="card-title mb-4">Address</h4>
-                  <p className="fs-lg fw-medium pb-3 mb-3">514 Magnolia St. Orlando, FL 32806</p>
+                  <p className="fs-lg fw-medium pb-3 mb-3">Madrid, Spain</p>
                   <Link className="btn btn-sm btn-outline-primary" to="">
                     <i className="ai-map-pin me-1" />
                     Get directions
