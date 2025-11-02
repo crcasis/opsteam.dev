@@ -168,13 +168,13 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link fw-normal px-0 py-1" to="mailto:email@example.com">
-                      email@example.com
+                    <Link className="nav-link fw-normal px-0 py-1" to="mailto:contact@opsteam.com">
+                      contact@opsteam.com
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link fw-normal px-0 py-1" to="+15262200459">
-                      +1&nbsp;526&nbsp;220&nbsp;0459
+                    <Link className="nav-link fw-normal px-0 py-1" to="tel:+34629785212">
+                      +34 629 785 212
                     </Link>
                   </li>
                 </ul>
