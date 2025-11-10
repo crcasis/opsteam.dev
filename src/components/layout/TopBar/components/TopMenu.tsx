@@ -11,8 +11,8 @@ const TopMenu = ({}: Props) => {
   return (
     <>
       <ul className="navbar-nav navbar-nav-scroll me-auto">
-        <li className="nav-item">
-          <Link className={`nav-link ${pathname === '/' ? 'active' : ''}`} to="/">
+        <li className="nav-item" style={{ display: 'none' }}>
+          <Link className="nav-link" to="/" style={{ display: 'none' }}>
             Home
           </Link>
         </li>
