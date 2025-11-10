@@ -9,7 +9,7 @@ import deloittelight from '@/assets/img/brands/deloitte-light.svg'
 import vuejsdark from '@/assets/img/brands/vuejs-dark.svg'
 import vuejslight from '@/assets/img/brands/vuejs-light.svg'
 import { Col, Image, Row } from 'react-bootstrap'
-import awsPartner from '@/assets/img/brands/aws-partner.svg'
+import awsPartner from '@/assets/img/brands/aws-partner.png'
 
 const Award = () => {
   return (
