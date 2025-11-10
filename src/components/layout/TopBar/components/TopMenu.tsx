@@ -21,12 +21,7 @@ const TopMenu = ({}: Props) => {
             Success Stories
           </Link>
         </li>
-        <li className="nav-item">
-          <Link className={`nav-link ${pathname === '/about/agency' ? 'active' : ''}`} to="/about/agency">
-            About
-          </Link>
-        </li>
-        <li className="nav-item">
+<li className="nav-item">
           <Link className={`nav-link ${pathname === '/services/v3' ? 'active' : ''}`} to="/services/v3">
             Talent Acquisition
           </Link>
