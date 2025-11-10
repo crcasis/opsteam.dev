@@ -18,7 +18,7 @@ const TopMenu = ({}: Props) => {
         </li>
         <li className="nav-item">
           <Link className={`nav-link ${isActive('/portfolio/list-v2') ? 'active' : ''}`} to="/portfolio/list-v2">
-            Portfolio
+            Success Stories
           </Link>
         </li>
         <li className="nav-item">
