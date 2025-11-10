@@ -48,7 +48,7 @@ const TopMenu = ({theme} :Props) => {
         </li>
         <li className="nav-item">
           <Link className={`nav-link ${pathname === '/services/v3' ? 'active' : ''}`} to="/services/v3">
-            Success Stories
+            Talent Acquisition
           </Link>
         </li>
         <li className="nav-item">
