@@ -16,7 +16,7 @@ const caseStudies: CaseStudy[] = [
   {
     title: 'Development of an application for a national bank',
     description:
-      'Non purus odio venenatis velit sed tellus sed ultrices neque adipiscing sit turpis lacus, aenean sed luctus adipiscing ut orci molestie arcu, sapien sed.',
+      'In today\'s market, 70% of platforms are legacy. We create plans to migrate these platforms to the cloud, based on security and scalability as fundamental pillars.',
     image: list06,
     bgColor: 'bg-info',
   },

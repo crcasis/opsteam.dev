@@ -120,7 +120,7 @@ const Portfolio = () => {
               <ul className="list-unstyled pb-1 pb-lg-2 mb-3">
                 <li className="d-flex pb-1 mb-2">
                   <i className="ai-check-alt text-primary fs-4 mt-n1 me-2" />
-                  AWS EKS - Cloudfront Distributioh
+                  AWS EKS - Cloudfront Distribution
                 </li>
                 <li className="d-flex pb-1 mb-2">
                   <i className="ai-check-alt text-primary fs-4 mt-n1 me-2" />
