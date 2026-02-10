@@ -9,7 +9,7 @@ import gcpPartner from '@/assets/img/brands/gcp-partner.png'
 import awsPartner from '@/assets/img/brands/aws-partner.png'
 import eu from '@/assets/img/brands/eu.png'
 import linux from '@/assets/img/brands/linux.png'
-import k8s from '@/assets/img/brands/k8s.png'
+// import k8s from '@/assets/img/brands/k8s.png'
 
 const Award = () => {
   return (
@@ -28,12 +28,12 @@ const Award = () => {
               <Image className="d-none d-dark-mode-block mx-auto" src={linux} width={196} alt="Linux" />
             </div>
           </Col>
-          <Col>
+          {/* <Col>
             <div className="py-sm-2 my-xl-1">
               <Image className="d-block d-dark-mode-none mx-auto" src={k8s} width={196} alt="Kubernetes" />
               <Image className="d-none d-dark-mode-block mx-auto" src={k8s} width={196} alt="Kubernetes" />
             </div>
-          </Col>
+          </Col> */}
           <Col>
             <div className="py-sm-2 my-xl-1">
               <Image className="d-block d-dark-mode-none mx-auto" src={gcpPartner} width={196} alt="GCP Partner" />
