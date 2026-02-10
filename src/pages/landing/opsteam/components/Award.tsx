@@ -9,7 +9,7 @@ import deloittelight from '@/assets/img/brands/deloitte-light.svg'
 import vuejsdark from '@/assets/img/brands/vuejs-dark.svg'
 import vuejslight from '@/assets/img/brands/vuejs-light.svg'
 import { Col, Image, Row } from 'react-bootstrap'
-import awsPartner from '@/assets/img/brands/aws-partner.png'
+import gcpPartner from '@/assets/img/brands/gcp-partner.png'
 
 const Award = () => {
   return (
@@ -36,8 +36,8 @@ const Award = () => {
           </Col>
           <Col>
             <div className="py-sm-2 my-xl-1">
-              <Image className="d-block d-dark-mode-none mx-auto" src={awsPartner} width={196} alt="AWS Partner" />
-              <Image className="d-none d-dark-mode-block mx-auto" src={awsPartner} width={196} alt="AWS Partner" />
+              <Image className="d-block d-dark-mode-none mx-auto" src={gcpPartner} width={196} alt="GCP Partner" />
+              <Image className="d-none d-dark-mode-block mx-auto" src={gcpPartner} width={196} alt="GCP Partner" />
             </div>
           </Col>
           <Col>
