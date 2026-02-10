@@ -8,6 +8,7 @@ import { Col, Image, Row } from 'react-bootstrap'
 import gcpPartner from '@/assets/img/brands/gcp-partner.png'
 import awsPartner from '@/assets/img/brands/aws-partner.png'
 import digitalocean from '@/assets/img/brands/digitalocean.png'
+import linux from '@/assets/img/brands/linux.png'
 
 const Award = () => {
   return (
@@ -22,8 +23,8 @@ const Award = () => {
           </Col>
           <Col>
             <div className="py-sm-2 my-xl-1">
-              <Image className="d-block d-dark-mode-none mx-auto" src={deloittedark} width={196} alt="Deloitte" />
-              <Image className="d-none d-dark-mode-block mx-auto" src={deloittelight} width={196} alt="Deloitte" />
+              <Image className="d-block d-dark-mode-none mx-auto" src={linux} width={196} alt="Linux" />
+              <Image className="d-none d-dark-mode-block mx-auto" src={linux} width={196} alt="Linux" />
             </div>
           </Col>
           <Col>
